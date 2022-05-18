@@ -1,0 +1,64 @@
+.App {
+  --green: #16a816;
+  --light-green: #a1ca9d;
+  --dark-green: #1ca545;
+  --black: Black;
+  font-family: "Time New Roman", sans-serif;
+  text-align: center;
+  background-color: antiquewhite;
+  text-align: center;
+  color: var(--black);
+  max-width: 100%;
+  margin: -1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+input {
+  padding: 0.5rem;
+  width: 75%;
+}
+
+button {
+  background: var(--light-green);
+  color: var(--black);
+}
+
+button:hover {
+  background: var(--light-green);
+}
+
+button:active {
+  background: var(--dark-green);
+}
+
+.search {
+  font-family: "Time New Roman", sans-serif;
+  padding: 0.5rem;
+}
+
+.genre {
+  font-family: "Times New Roman", sans-serif;
+  padding: 0.5rem 0.5rem;
+  margin: 0.75rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.books {
+  font-family: "Times New Roman", sans-serif;
+  border: 1px solid #6b7280;
+  margin: auto;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 1rem;
+}
+
+strong,
+h2 {
+  color: var(--green);
+}
